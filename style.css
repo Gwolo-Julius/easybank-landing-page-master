@@ -250,8 +250,73 @@ nav ul li a::after:hover {
   margin: 2rem 10%;
 }
 
+/* Footer section */
 .footer {
   background-color: var(--Dark-Blue);
   display: flex;
   justify-content: space-between;
+  padding: 6rem 10%;
+}
+.inner_left {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+.inner_left img {
+  color: var(--White);
+}
+
+.left_footer {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+
+.inner_left_info {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.inner_left_info a {
+  transition: all 0.5s ease;
+}
+.inner_left_info a:hover {
+  color: var(--Lime-Green);
+}
+.social_media {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+}
+
+.social_media .white_on_cover:hover {
+  color: var(--Lime-Green);
+}
+
+.social_media img {
+  width: 26px;
+  color: var(--Lime-Green);
+}
+
+.footer_logo {
+  /* transform: invert(1);
+   */
+  filter: invert(1);
+}
+
+.right_footer {
+  display: flex;
+  gap: 2rem;
+  /* justify-content: flex-end; */
+  align-items: end;
+  flex-direction: column;
 }
