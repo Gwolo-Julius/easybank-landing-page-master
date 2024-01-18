@@ -250,4 +250,8 @@ nav ul li a::after:hover {
   margin: 2rem 10%;
 }
 
-
+.footer {
+  background-color: var(--Dark-Blue);
+  display: flex;
+  justify-content: space-between;
+}
